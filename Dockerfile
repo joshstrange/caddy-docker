@@ -7,6 +7,7 @@ ARG version="1.0.3"
 ARG plugins="git,cors,realip,expires,cache,cloudflare,jwt,login"
 ARG enable_telemetry="true"
 
+
 # process wrapper
 RUN go get -v github.com/abiosoft/parent
 
